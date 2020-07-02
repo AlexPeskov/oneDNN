@@ -175,6 +175,11 @@
 #  define ITT_ARCH_PPC64  5
 #endif /* ITT_ARCH_PPC64 */
 
+#ifndef ITT_ARCH_IA64
+#  define ITT_ARCH_IA64  6
+#endif /* ITT_ARCH_IA64 */
+
+
 #ifndef ITT_ARCH
 #  if defined _M_IX86 || defined __i386__
 #    define ITT_ARCH ITT_ARCH_IA32
